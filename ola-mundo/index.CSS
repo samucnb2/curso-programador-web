@@ -1,0 +1,20 @@
+p {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2 {
+    color: aquamarine;
+
+
+}
+h1{
+    color: blue;
+    text-decoration: underline dotted rgb(43, 221, 7);
+}
+li{
+    color: blueviolet;
+   text-decoration: underline;
+                      
+}
+    
