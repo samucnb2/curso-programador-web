@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+@import url(./styles/footer.css);
+@import url(./styles/header.css);
+@import url(./styles/main_index.css);
+@import url(./styles/body.css);
+@import url(./styles/post.css);
+@import url(./styles/side.css);
+
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    
+    header .container {
+        flex-direction: column;
+    }
+    
+    header nav ul {
+        margin-top: 15px;
+    }
+}
